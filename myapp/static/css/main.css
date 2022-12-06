@@ -1,0 +1,41 @@
+body{
+  background-color: #202020;
+  color: whitesmoke;
+}
+
+.navbar{
+  background-color: #404040;
+  color: whitesmoke;
+  padding: 5px 10px;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li{
+  list-style: none;
+}
+.navbar ul li a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover{
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 10px;
+}
+
+.input{
+  background-color: aquamarine;
+  padding: 1px;
+  text-align: center;
+  display: block;
+}
